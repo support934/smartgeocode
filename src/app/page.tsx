@@ -18,14 +18,15 @@ export default function Home() {
 
       <a 
         href="https://calendly.com/sumeetvasu/weekend-backend" 
+        
         className="bg-purple-600 hover:bg-purple-500 px-16 py-8 text-3xl rounded-xl font-bold transition-all transform hover:scale-105 shadow-2xl"
       >
-        Book 15-min call – 5 slots left before Christmas
+        Book 15-min call → I’ll show you exactly what ships in 48 hours
       </a>
 
       <p className="mt-12 text-gray-400 text-lg text-center max-w-2xl">
-        Your current SmartGeocode product stays running behind the scenes.<br/>
-        This page is the new client acquisition machine that prints $10k/month recurring.
+          I only take clients I know I can crush it for.<br />
+          If it’s not a perfect fit on the call, no hard feelings – zero pressure
       </p>
     </main>
   );
