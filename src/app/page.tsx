@@ -15,7 +15,7 @@ export default function Home() {
             -H "x-api-key: sk_test_2025"
         </code>
       </div>
-      <div className="mt-12 text-center"></div>
+      
       <a 
           href="https://calendly.com/smartgeocode-support/new-meeting"  // ← double-check this is your exact Calendly link
          target="_blank"
@@ -29,7 +29,7 @@ export default function Home() {
           I only take clients I know I can crush it for.<br />
           If it’s not a perfect fit on the call, no hard feelings – zero pressure
       </p>
-      </div>
+      
     </main>
   );
 }
