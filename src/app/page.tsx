@@ -15,19 +15,21 @@ export default function Home() {
             -H "x-api-key: sk_test_2025"
         </code>
       </div>
-
+      <div className="mt-12 text-center"></div>
       <a 
-        href="https://calendly.com/sumeetvasu/weekend-backend" 
-        
-        className="bg-purple-600 hover:bg-purple-500 px-16 py-8 text-3xl rounded-xl font-bold transition-all transform hover:scale-105 shadow-2xl"
-      >
-        Book 15-min call → I’ll show you exactly what ships in 48 hours
-      </a>
+          href="https://calendly.com/smartgeocode-support/new-meeting"  // ← double-check this is your exact Calendly link
+         target="_blank"
+         rel="noopener noreferrer"
+         className="inline-block px-12 py-8 text-xl font-semibold text-white bg-purple-600 rounded-lg hover:bg-purple-700 transition-all shadow-lg hover:shadow-xl transform hover:scale-105"
+  >
+    Book 15-min call → I’ll show you exactly what ships in 48 hours
+  </a>
 
       <p className="mt-12 text-gray-400 text-lg text-center max-w-2xl">
           I only take clients I know I can crush it for.<br />
           If it’s not a perfect fit on the call, no hard feelings – zero pressure
       </p>
+      </div>
     </main>
   );
 }
