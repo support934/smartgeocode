@@ -2,10 +2,12 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-black text-white flex flex-col items-center justify-center p-8">
       <h1 className="text-5xl md:text-7xl font-bold mb-8 text-center leading-tight">
-        Ex-Amazon L6 Builds Production Backends<br/>in a Weekend – $5,000 flat
+       Tired of slow devs and agency pricing?<br/>I ship full production Next.js 16 backends in one weekend flat.
+      Clerk auth + Drizzle ORM + Stripe billing + Railway deploy – done.
+      $5,000 fixed. Zero equity.
       </h1>
       <p className="text-xl md:text-2xl mb-12 text-center max-w-3xl opacity-90">
-        Next.js 16 + Clerk + Drizzle + Stripe-ready • Deployed on Railway • Live API proof below
+        Live example running right now at smartgeocode.io
       </p>
 
       <div className="bg-gray-900 p-10 rounded-xl mb-12 border border-gray-800 max-w-4xl">
